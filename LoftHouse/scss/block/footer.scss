@@ -1,0 +1,47 @@
+.footer {
+    height: 272px;
+    background: #2D343C;
+    color: $white;
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    span {
+        color: $accent;
+    }
+}
+
+.footer-nav {
+    margin-bottom: 15px;
+}
+
+.services {
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    margin-bottom: 15px;
+}
+
+.footer-content-wrapper {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-footer {
+    margin-top: 5px;
+    display: flex;
+    gap: 22px;
+}
+
+
+.footer-img-item {
+    transition: transform  0.3s, ease-in-out;
+}
+
+
+.footer-img-item:hover{
+    transform: scale(1.09);
+}
+

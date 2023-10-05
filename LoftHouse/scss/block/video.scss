@@ -1,0 +1,19 @@
+.video {
+    margin: 0 auto;
+    width: 720px;
+    position: relative;
+
+}
+
+.button-play {
+    position: absolute;
+    left: 45%;
+    bottom: 45%;
+    transition: transform  0.3s, ease-in-out;
+}
+
+
+.button-play:hover {
+    transform: scale(1.08);
+    filter: saturate(1.5);
+}

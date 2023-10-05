@@ -1,0 +1,14 @@
+.info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    // display: flex;
+    // gap: 35px;
+}
+
+.have-question {
+    padding-bottom: 191px;
+    h2 {
+        padding-bottom: 50px;
+    }
+}

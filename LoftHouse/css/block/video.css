@@ -1,0 +1,12 @@
+.video {
+  margin: 0 auto;
+  width: 720px;
+}
+.video .video-img {
+  position: relative;
+}
+.video .button-play {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}

@@ -1,0 +1,19 @@
+.benefits {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    } 
+
+    .benefits-item-text {
+        font-family: $font-secondary;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-top: 53px;
+    }
+}
+
+

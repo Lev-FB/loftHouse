@@ -1,0 +1,31 @@
+.cta {
+    background-image: url('../../img/main/cta-bg.jpg');
+    .container {
+        padding: 180px 0;
+
+        h2 {
+            padding-bottom: 17px;
+        }
+    }
+}
+
+
+.cta-text {
+    color: $white;
+    font-family: $font-main;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+
+.cta-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.form-cta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 30px;
+}
